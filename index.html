@@ -4,14 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Exchange Rate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="App.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
+      <div class="container">
         <h2>Currency Converter</h2>
-        <div class="main">
-            
+      <div class="main">
+        <form>
+          <div class="amount">
+            <p class="amount-text">
+              <input type="text" value="100" class="input-text" />
+            </p>
+          </div>
+          <div class="dropdown">
+          <div class="from">
+            <p>From</p>
+            <div class="select-container">
+                <img class="Image" src="https://flagsapi.com/BE/flat/64.png" />
+              <select name="from">
+                <option value="PK" selected>PAK</option>
+                <option value="PK">AUS</option>
+                <option value="PK">US</option>
+              </select>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <div class="from">
+            <p>To</p>
+            <div class="select-container">
+                <img class="Image" src="https://flagsapi.com/BE/flat/64.png" />
+              <select name="from">
+                <option value="PK" selected>PAK</option>
+                <option value="PK">AUS</option>
+                <option value="PK">US</option>
+              </select>
+            </div>
+          </div>
         </div>
+          <h3 class="msg">1 USD to 265 PKR</h3>
+          <button>Get Rates</button>
+        </form>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
