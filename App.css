@@ -65,7 +65,7 @@ form input {
 .select-container select {
     font-size: 1rem;
 }
-.select-container i {
+.dropdown i {
     max-width: 1rem;
     margin-top: 1rem;
 }
@@ -73,4 +73,12 @@ form input {
 .msg{
     text-align: center;
     margin: 1rem;
+}
+.btn{
+    background-color: #af4d98;
+    color: white;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 0.8rem;
 }
